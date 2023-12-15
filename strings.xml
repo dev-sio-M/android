@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GSB-RV</string>
+    <string name="matricule">Matricule :</string>
+    <string name="mdp">Mot de passe :</string>
+    <string name="btn_valider">VALIDER</string>
+    <string name="btn_annuler">ANNULER</string>
+</resources>
