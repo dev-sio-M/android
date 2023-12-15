@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fr.gsb.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/matricule"
+        android:labelFor="@+id/matricule"/>
+
+    <EditText
+        android:id="@+id/matricule"
+        android:layout_height="48dp"
+        android:layout_width="match_parent"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mdp"
+        android:labelFor="@+id/mdp"/>
+
+    <EditText
+        android:id="@+id/mdp"
+        android:layout_height="48dp"
+        android:layout_width="match_parent"
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_valider"
+            android:id="@+id/Valider"
+            android:onClick="btnValider"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_annuler"
+            android:onClick="btnAnnuler"
+            android:id="@+id/Annuler"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+</LinearLayout>
